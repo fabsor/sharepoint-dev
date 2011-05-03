@@ -1,3 +1,9 @@
 [submodule "drupal7/sites/all/modules/sharepoint"]
 	path = drupal7/sites/all/modules/sharepoint
 	url = fabsor@git.drupal.org:project/sharepoint.git
+[submodule "drupal7/sites/all/modules/views"]
+	path = drupal7/sites/all/modules/views
+	url = http://git.drupal.org/project/views.git
+[submodule "drupal7/sites/all/modules/ctools"]
+	path = drupal7/sites/all/modules/ctools
+	url = http://git.drupal.org/project/ctools.git

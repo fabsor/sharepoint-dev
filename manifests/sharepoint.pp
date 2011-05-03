@@ -11,4 +11,3 @@ include apache
 include php
 include mysql
 include hosts
-include compile

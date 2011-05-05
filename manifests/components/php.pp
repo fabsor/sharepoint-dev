@@ -1,5 +1,5 @@
 class php {
-  $packages = [ "php5", "php5-mysql", "php5-gd", "php-apc", "php5-curl", "php5-dev", "php5-dbg"]
+  $packages = [ "php5", "php5-mysql", "php5-gd", "php-apc", "php5-curl", "php5-dev", "php5-dbg", "php5-xdebug"]
   # PHP.ini file.
   file { "/etc/php5/apache2/php.ini":
     owner => root,

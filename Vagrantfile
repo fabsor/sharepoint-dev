@@ -24,6 +24,6 @@ Vagrant::Config.run do |config|
   config.vm.share_folder "v-srv", "/srv", ".", :nfs => true
 
   config.vm.provision :puppet do |puppet|
-    puppet.manifest_file = "php-dev.pp"
+    puppet.manifest_file = "sharepoint.pp"
   end
 end
